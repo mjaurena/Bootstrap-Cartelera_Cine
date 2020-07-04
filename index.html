@@ -10,42 +10,182 @@
   </head>
   <body class="cinema-body">
     <header>
-      <nav class="navbar navbar-inverse navbar-fixed-top affix-top"></nav>
+      <nav class="navbar navbar-inverse navbar-fixed-top affix-top">
+        <img class="logo-img" src="img/cine_logo.png" alt="logo" title="logo"/>
+      </nav>
     </header>
     <div class="container">
       <div class="row">
-        <div class="jumbotron"></div>
-        <div class="titulo-cartelera"></div>
+        <div class="jumbotron">
+          <div class="row">
+            <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 text-center"></div>
+            <div class="col-sm-8 col-xs-8 col-lg-8 col-md-8 text-center">
+              <h2 class="welcome-title text-uppercase">bienvenidos a</h2>
+              <figure>
+                <img class="jumbotron-img" src="img/cine_logo.png" alt="logo" title="logo"/>
+              </figure>
+              <div class="jumbotron-text">
+                <p>Síguenos en nuestras <abbr title="Facebook, Twitter, Instagram">redes sociales</abbr>para obtener información sobre los últimos estrenos del cine</p>
+              </div>
+              <div class="redes-sociales">
+                <img class="img-social" img-rounded src="img/facebook.png" alt="Facebook" title="Facebook"/>
+                <img class="img-social" img-rounded src="img/instagram.png" alt="Instagram" title="Instagram"/>
+                <img class="img-social" img-rounded src="img/twitter.png" alt="Twitter" title="Twitter"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="titulo-cartelera">
+          <header class="titulo-text">
+            <p class="text-capitalize text-center">películas en cartelera</p>
+          </header>
+        </div>
       </div>
       <div class="row movies-row">
-        <div class="col-sm-3 col-xs-3 col-lg-2 col-md-2 movies-column text-center"></div>
-        <div class="col-sm-3 col-xs-3 col-lg-2 col-md-2 movies-column text-center"></div>
-        <div class="col-sm-3 col-xs-3 col-lg-2 col-md-2 movies-column text-center"></div>
-        <div class="col-sm-3 col-xs-3 col-lg-2 col-md-2 movies-column text-center"></div>
-        <div class="col-lg-2 col-md-2 movies-column text-center" right-column></div>
-        <div class="col-lg-2 col-md-2 movies-column text-center" right-column></div>
+        <div class="col-sm-3 col-xs-3 col-lg-2 col-md-2 movies-column text-center">
+          <div class="row movie-title">
+            <img src="img/goldeneye.png" class="img-movies"/>
+          </div>
+          <div class="row movie-title">
+            <h5>Goldeneye</h5>
+          </div>
+          <div class="row movie-title">
+            <h5>Sala 1</h5>
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-3 col-lg-2 col-md-2 movies-column text-center">
+          <div class="row movie-title">
+            <img src="img/the-flowers-of-war.png" class="img-movies"/>
+          </div>
+          <div class="row movie-title">
+            <h5>The flowers of war</h5>
+          </div>
+          <div class="row movie-title">
+            <h5>Sala 4</h5>
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-3 col-lg-2 col-md-2 movies-column text-center">
+          <div class="row movie-title">
+            <img src="img/pactar-con-el-diablo.png" class="img-movies"/>
+          </div>
+          <div class="row movie-title">
+            <h5>Pactar con el diablo</h5>
+          </div>
+          <div class="row movie-title">
+            <h5>Sala 2</h5>
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-3 col-lg-2 col-md-2 movies-column text-center">
+          <div class="row movie-title">
+            <img src="img/amelie.png" class="img-movies"/>
+          </div>
+          <div class="row movie-title">
+            <h5>Amelie</h5>
+          </div>
+          <div class="row movie-title">
+            <h5>Sala 2</h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 movies-column text-center" right-column>
+          <div class="row movie-title">
+            <img src="img/dragon-ball-z.png" class="img-movies"/>
+          </div>
+          <div class="row movie-title">
+            <h5>Dragon Ball Z</h5>
+          </div>
+          <div class="row movie-title">
+            <h5>Sala 3</h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 movies-column text-center" right-column>
+          <div class="row movie-title">
+            <img src="img/star-wars.png" class="img-movies"/>
+          </div>
+          <div class="row movie-title">
+            <h5>Star Wars</h5>
+          </div>
+          <div class="row movie-title">
+            <h5>Sala 3</h5>
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="titulo-cartelera col-lg-8 col-md-8 col-sm-12 col-xs-12 left-column"></div>
-        <div class="titulo-cartelera col-lg-4 col-md-4" right-column></div>
+        <div class="titulo-cartelera col-lg-8 col-md-8 col-sm-12 col-xs-12 left-column">
+          <header class="titulo-text text-capitalize text-center">
+            <p>próximos extrenos</p>
+          </header>
+        </div>
+        <div class="titulo-cartelera col-lg-4 col-md-4" right-column>
+          <header class="titulo-text text-capitalize text-center">
+            <p>mejor calificada</p>
+          </header>
+        </div>
       </div>
       <div class="row movies-row">
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 left-column">
           <div class="row movies-row">
-            <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 movies-column text-center"></div>
-            <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 movies-column text-center"></div>
-            <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 movies-column text-center"></div>
+            <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 movies-column text-center">
+              <div class="row movie-title">
+                <img src="img/diamante-de-sangre.png" class="img-movies"/>
+              </div>
+              <div class="row movie-title">
+                <h5>Diamante de Sangre</h5>
+              </div>
+              <div class="row movie-title">
+                <h5>10/07/2020</h5>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 movies-column text-center">
+              <div class="row movie-title">
+                <img src="img/harry-potter.png" class="img-movies"/>
+              </div>
+              <div class="row movie-title">
+                <h5>Harry Potter</h5>
+              </div>
+              <div class="row movie-title">
+                <h5>08/07/2020</h5>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 movies-column text-center">
+              <div class="row movie-title">
+                <img src="img/hotel-transilvania.png" class="img-movies"/>
+              </div>
+              <div class="row movie-title">
+                <h5>Hotel Transilvania</h5>
+              </div>
+              <div class="row movie-title">
+                <h5>20/07/2020</h5>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-4 movies-row right-column">
           <div class="row movies-row">
-            <div class="col-lg-12 col-md-12 movies-column text-center"></div>
+            <div class="col-lg-12 col-md-12 movies-column text-center">
+              <div class="row movie-title">
+                <img src="img/love-and-honor.png" class="img-movies"/>
+              </div>
+              <div class="row movie-title">
+                <h5>Love and Honor</h5>
+              </div>
+              <div class="row movie-title">
+                <h5>Calificación: 09/10</h5>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-6 titulo-cartelera left-column right-column"></div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 titulo-cartelera"></div>
+        <div class="col-lg-6 col-md-6 titulo-cartelera left-column right-column">
+          <header class="titulo-text text-capitalize text-center">
+            <p>servicios</p>
+          </header>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 titulo-cartelera">
+          <header class="titulo-text text-capitalize text-center">
+            <p>registrate</p>
+          </header>
+        </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 movies-row left-column right-column"></div>
