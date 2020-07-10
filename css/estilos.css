@@ -79,6 +79,41 @@ nav{
   padding: 6px;
   margin-top: 22px;
 }
+.user_data{
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+.input-element{
+  width: 100%;
+  height: 28px;
+  padding: 1px;
+  color: white;
+  background-color: hsla(180, 100%, 97%, 0.4);
+  border-radius: 4px;
+  border: none;
+  margin-top: 5px;
+  font-size: 3vh;
+}
+.input-element label{
+  width: 15%;
+}
+.input-element input{
+  width: 75%;
+  background-color: hsla(180, 100%, 97%, 0.4);
+  border: none;
+}
+.label-class{
+  color: white;
+  font-size: 13px;
+  margin-right: 10px;
+}
+.btn-save{
+  width: 40%;
+  background-color: rgba(245,176,65,0.95);
+  color: white;
+  font-weight: bolder;
+}
 
 @media max-width: 770px{
   .right-column{

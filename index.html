@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <script src="js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Bootstrap</title>
   </head>
@@ -189,7 +188,54 @@
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 movies-row left-column right-column"></div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 movies-row"></div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 movies-row">
+          <form action="mailto: m_jaurena@hotmail.com" method="post" enctype="text/plain" role="form">
+            <fieldset>
+              <div class="form-group text-center user_data">
+                <legend>Datos Personales</legend>
+              </div>
+              <div class="form-group input-element">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre completo">
+              </div>
+              <div class="form-group input-element">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Correo electrónico">
+              </div>
+              <div class="form-group input-element">
+                <label for="telefono">Teléfono:</label>
+                <input type="text" name="telefono" id="telefono" placeholder="Nro. telefónico">
+              </div>
+              <div class="form-group input-element">
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" name="ciudad" id="ciudad" placeholder="Localidad">
+              </div>
+              <div class="form-group text-center user_data">
+                <legend>Elige tus categorías favoritas</legend>
+                <input type="checkbox" name="terror" id="terror"></input>
+                <label for="terror" class="label-class">Terror</label>
+                <input type="checkbox" name="comedia" id="comedia"></input>
+                <label for="comedia" class="label-class">Comedia</label>
+                <input type="checkbox" name="suspenso" id="suspenso"></input>
+                <label for="suspenso" class="label-class">Suspenso</label>
+                <input type="checkbox" name="accion" id="accion"></input>
+                <label for="accion" class="label-class">Acción</label>
+                <input type="checkbox" name="infantil" id="infantil"></input>
+                <label for="infantil" class="label-class">Infantil</label>
+              </div>
+              <div class="form-group text-center">
+                <legend class="user_data">¿Desea recibir correo de nuestro sitio?</legend>
+                <input type="radio" name="si" id="si"></input>
+                <label for="si" class="label-class">Sí</label>
+                <input type="radio" name="no" id="no"></input>
+                <label for="no" class="label-class">No</label>
+              </div>
+              <div class="form-group text-center">
+                <input type="button" name="boton" value="Guardar" class="btn btn-primary form-control btn-save"</input>
+              </div>
+            </fieldset>
+          </form>
+        </div>
       </div>
     </div>
 
